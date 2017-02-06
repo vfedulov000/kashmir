@@ -2,5 +2,7 @@
 debug
 release
 x64
+.vs
+ipch
 *.user
 *.db
