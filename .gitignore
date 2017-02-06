@@ -1,2 +1,6 @@
-#TTT
 *.sv
+debug
+release
+x64
+*.user
+*.db
