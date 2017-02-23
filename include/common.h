@@ -1,3 +1,8 @@
 #pragma once
-#include <QCoreApplication>
-#include <QtOpenGL/QtOpenGL>
+#include <QApplication>
+#include <QOpenGLWindow>
+#include <QScreen>
+#include <QPainter>
+#include <QPaintDeviceWindow>
+#include <QMatrix4x4>
+

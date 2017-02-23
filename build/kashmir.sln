@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kashmir", "kashmir.vcxproj", "{992D1EAB-D62A-4DB3-B838-C1020FD91E82}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qopenglwindow", "..\..\..\apps\Qt\Qt5.8.0\Examples\Qt-5.8\opengl\qopenglwindow\qopenglwindow.vcxproj", "{9FBE7A68-0180-3F34-9A55-5B46042877C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kashmir_old", "..\..\kashmir_old\Kashmir\Kashmir_old.vcxproj", "{9EB58C96-5779-45FD-B554-91C441431FE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kashmir", "kashmir.vcxproj", "{30763DC2-F77B-3224-B20E-AFEC558929B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paintedwindow", "..\..\..\apps\Qt\Qt5.8.0\Examples\Qt-5.8\opengl\paintedwindow\paintedwindow.vcxproj", "{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qopenglwidget", "..\..\..\apps\Qt\Qt5.8.0\Examples\Qt-5.8\opengl\qopenglwidget\qopenglwidget.vcxproj", "{490B0C56-2F7E-3389-9FB8-512AED7C60DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +19,62 @@ Global
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Debug|x64.ActiveCfg = Debug|x64
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Debug|x64.Build.0 = Debug|x64
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Debug|x86.ActiveCfg = Debug|Win32
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Debug|x86.Build.0 = Debug|Win32
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Release|x64.ActiveCfg = Release|x64
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Release|x64.Build.0 = Release|x64
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Release|x86.ActiveCfg = Release|Win32
-		{992D1EAB-D62A-4DB3-B838-C1020FD91E82}.Release|x86.Build.0 = Release|Win32
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Debug|x64.ActiveCfg = Debug|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Debug|x64.Build.0 = Debug|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Debug|x86.ActiveCfg = Debug|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Release|x64.ActiveCfg = Release|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Release|x64.Build.0 = Release|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Release|x86.ActiveCfg = Release|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Template|x64.ActiveCfg = Release|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Template|x64.Build.0 = Release|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Template|x86.ActiveCfg = Release|x64
+		{9FBE7A68-0180-3F34-9A55-5B46042877C2}.Template|x86.Build.0 = Release|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Debug|x64.ActiveCfg = Debug|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Debug|x64.Build.0 = Debug|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Debug|x86.Build.0 = Debug|Win32
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Release|x64.ActiveCfg = Release|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Release|x64.Build.0 = Release|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Release|x86.ActiveCfg = Release|Win32
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Release|x86.Build.0 = Release|Win32
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Template|x64.ActiveCfg = Template|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Template|x64.Build.0 = Template|x64
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Template|x86.ActiveCfg = Template|Win32
+		{9EB58C96-5779-45FD-B554-91C441431FE8}.Template|x86.Build.0 = Template|Win32
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Debug|x64.ActiveCfg = Debug|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Debug|x64.Build.0 = Debug|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Debug|x86.ActiveCfg = Debug|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Release|x64.ActiveCfg = Release|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Release|x64.Build.0 = Release|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Release|x86.ActiveCfg = Release|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Template|x64.ActiveCfg = Release|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Template|x64.Build.0 = Release|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Template|x86.ActiveCfg = Release|x64
+		{30763DC2-F77B-3224-B20E-AFEC558929B0}.Template|x86.Build.0 = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Debug|x64.ActiveCfg = Debug|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Debug|x64.Build.0 = Debug|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Debug|x86.ActiveCfg = Debug|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Release|x64.ActiveCfg = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Release|x64.Build.0 = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Release|x86.ActiveCfg = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Template|x64.ActiveCfg = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Template|x64.Build.0 = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Template|x86.ActiveCfg = Release|x64
+		{988AB139-8DCC-3BA6-AF4E-F79E6E3371F8}.Template|x86.Build.0 = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Debug|x64.ActiveCfg = Debug|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Debug|x64.Build.0 = Debug|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Debug|x86.ActiveCfg = Debug|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Release|x64.ActiveCfg = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Release|x64.Build.0 = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Release|x86.ActiveCfg = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Template|x64.ActiveCfg = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Template|x64.Build.0 = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Template|x86.ActiveCfg = Release|x64
+		{490B0C56-2F7E-3389-9FB8-512AED7C60DC}.Template|x86.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
